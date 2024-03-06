@@ -1,0 +1,12 @@
+GITHELP
+
+# initial fetch
+git fetch git@github.com:noahblakemathur/marinagm.git
+
+# set remote if needed
+git remote set-url origin git@github.com:noahblakemathur/marinagm.git
+
+
+choose one
+git config pull.rebase false
+git config pull.rebase true
