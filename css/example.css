@@ -1,27 +1,33 @@
-body { margin: 0; }
-header {
+body, div, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+body, div {
     font-family: Poppins, Arial, Helvetica;
     font-size: 1em;
-    position: relative;
 }
+
+header { position: relative; }
 
 header > div {
     color: #fff;
     display: inline-block;
     margin: 0.25em 0 0 1em;
 }
+
 header > div > span { margin-right: 1em; } 
-header > nav { position: absolute; right: 1em; top: 1.5em; }
+header > nav { position: absolute; right: 1em; top: 1.5em; min-width: 40px;}
 
 header.contact {
+    font-size: 0.8em;
     background-color: #00b8ff;
     height: 2em;    
 }
+header.contact > div { margin-left: 1.5em; }
 header.contact > nav { top: 0.25em; }
 
-div.logo > div,
-div.logo > img { height: 60px; }
-div.logo > div {
+header div.logo > div,
+header div.logo > img { height: 60px; }
+header div.logo > div {
     color: #000;
     display: inline-block;
     font-size: 1.5em;
@@ -32,6 +38,29 @@ div.logo > div {
     vertical-align: top;
     width: 5em;
 }
+
+section { margin: 0 1em; }
+
+div.overlay {
+    background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(/fotofondo.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    max-height: 20em;
+    min-height: 10em;
+    padding: 2em 0;
+}
+
+div.title {
+    text-align: center; margin-bottom: 1em;
+}
+div.title h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+div.title h4 { font-style: italic; font-weight: 400; }
+
+/* */
 /*html body{
     height: 100%;
     margin: 0;
