@@ -1,52 +1,129 @@
 <html>
     <head>
-        <title>Marina's Webpage</title>
-        <link rel="stylesheet" href="/marina.css">
+        <title>Tu Apego Seguro</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/example.css">
     </head>
     <body>
-        <div id="contact-bar">
-            <ul>
-                <li class="numero"><i class="fa-solid fa-phone"></i> +34 667-851-013</li>
-                <li class="correo"><i class="fa-solid fa-envelope"></i> tuapegoseguro@gmail.com</li> 
-                <li class="socials"><button class="icon"><i class="fa-brands fa-square-instagram"></i></button><button class="icon"><i class="fa-brands fa-linkedin"></i></button><button id="tiktok" class="icon"><i class="fa-brands fa-tiktok"></i></button></li>
-            </ul>
-        </div>
-        <div id="logo-bar">
-            <img src="/logo4.png">
-            <div class="buttons">
+        <header class="contact">
+            <div>
+                <span><i class="fa fa-phone"></i> +34 667-851-013</span>
+                <span><i class="fa fa-envelope"></i> tuapegoseguro@gmail.com</span>
+            </div>
+            <nav class="socials">
+                <button><i class="fa-brands fa-square-instagram"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+                <button><i class="fa-brands fa-tiktok"></i></button>
+            </nav>
+        </header>
+
+        <header class="logo-bar">
+            <div class="logo">
+                <img src="/img/logofondoblanco.png">
+                <div>TU APEGO SEGURO</div>
+            </div>
+            <span>
+                <h1>MARINA GÓMEZ MATHUR</h1>
+            </span>
+            <nav>
                 <button>QUIÉN SOY <i class="fa-solid fa-caret-down"></i></button>
                 <button>TARIFAS <i class="fa-solid fa-caret-down"></i></button>
                 <button>CONTACTO <i class="fa-solid fa-caret-down"></i></button>
-                <button>PEDIR CITA <i class="fa-solid fa-caret-down"></i></button>
+                <button class="special" type="checkbox"><a href="form.html">PEDIR CITA<i class="fa-solid fa-caret-down"></i></a></button>
+            </div>         
+        </header>
+
+        <div class="overlay">
+            <section>
+                <div class="title">
+                    <h1>¿CÓMO PODEMOS AYUDARTE?</h1>
+                    <h4>"Psicóloga Marina Gómez Mathur"</h4>
+                </div>
+                <div class="body">
+                    Clínica especializada en relaciones familiares,traumas y EMDR.
+                    Mi método es el resultado de años de aprendizaje y experiencia
+                    en los que he ido incorporando las contribuciones de diversas
+                    escuelas y líneas de pensamiento, para así entender y atender a cada
+                    persona y sus particularidades, de forma única y exclusiva.
+                    Confío en que mi trabajo especializado, responsable y honesto
+                    permita que, juntos, podamos transformar el esfuerzo que
+                    supone una psicoterapia en una inversión de futuro y bienestar
+                </div>
+            </section>
+        </div>
+
+        <section>
+            <h2>TESTIMONIOS</h2>
+            <div class="testimonios">
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                    “Marina me ha comprendido. Me ha enseñado a validar lo que me pasa. Siento
+                    que avanzo y mejoro con ella, y aunque me quede recorrido todavía, siento que
+                    ella es un refugio de verdad y siento que su ayuda me aporta muchísimo. No
+                    puedo estar más agradecida. Conecté con ella enseguida. Gracias!”
+                </p>
+                <p>Anónimo adulto.</p>
             </div>
-        </div>
-        <div id="info-bar">
-          <div class="overlay">
-            <h2>¿CÓMO PODEMOS AYUDARTE?</h2>
-            <br><p><i><b>"Psicóloga Marina Gómez Mathur"</b></i><br><br><br>Clínica especializada en relaciones familiares,traumas y EMDR.<br>Mi método es el resultado de años de aprendizaje y experiencia<br>en los que he ido incorporando las contribuciones de diversas<br>escuelas y líneas de pensamiento, para así entender y atender a cada<br>persona y sus particularidades, de forma única y exclusiva.<br>
-            Confío en que mi trabajo especializado, responsable y honesto<br>permita que, juntos, podamos transformar el esfuerzo que<br>supone una psicoterapia en una inversión de futuro y bienestar.</p>
-          </div>
-        </div>
-        <div id="testimonios-bar">
+            <div class="testimonios">
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                “Después de cinco meses con Marina, estoy orgullosa de haber dado el paso, su
+                capacidad de escuchar, acoger y sostener me hace sentir que estoy en el camino
+                y que tengo una mano a la que agarrarme cuando tropiezo, además de haber ido
+                vaciando la mochila que traía cargada de piedras para dejar hueco a las
+                herramientas que necesito para poder caminar tranquila y feliz. Muchas
+                gracias!”
+                </p>
+                <p>Anónimo adulto.</p>
+            </div>
+            <div id="special" class="testimonios">
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                    “Marina ha ayudado a nuestra hija en sus problemas de TDAH y ha conseguido
+                    un gran cambio en ella, consiguiendo que desarrolle habilidades en técnicas de
+                    estudio, organización y planificación de los tiempos. Estamos muy agradecidos
+                    del trabajo que ha hecho con nuestra hija a nivel educativo y de gestión
+                    emocional. Es una gran profesional y gracias a su trabajo hemos visto muy
+                    buenos resultados en muy poco tiempo.”
+                </p>
+                <p>Anónimo psicoeducativo.</p>
+            </div>
+        </section>
+<!--         <div id="testimonios-bar">
             <h2>TESTIMONIOS</h2>
             <div class="caja-testimonios">
-            <p><i class="fa-solid fa-circle-user"></i> "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."<br><br>De: Manolo González<br><br>
-                <i>Fecha: 15/03/2024</i></p>
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                    "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."
+                    <br><br>
+                    De: Manolo González<br><br>
+                    <i>Fecha: 15/03/2024</i>
+                </p>
             </div>
             <div class="caja-testimonios1">
-                <p><i class="fa-solid fa-circle-user"></i> "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."<br><br>De: Manolo González<br><br>
-                <i>Fecha: 15/03/2024</i></p>
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                    "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."
+                    <br><br>
+                    De: Manolo González
+                    <br><br>
+                    <i>Fecha: 15/03/2024</i></p>
             </div>
             <div class="caja-testimonios2">
-                <p><i class="fa-solid fa-circle-user"></i> "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."<br><br>De: Manolo González<br><br>
+                <p>
+                    <i class="fa-solid fa-circle-user"></i>
+                    "Marina es la mejor psicóloga del mundo,esto es genuino.Para nada me ha olbigado a esribir esta reseña y me ha amenazado para que le ponga una buena reseña."
+                    <br><br>
+                    De: Manolo González<br><br>
                     <i>Fecha: 15/03/2024</i></p>
             </div>
         
-        </div>
+        </div> -->
     </body>
 </html>
