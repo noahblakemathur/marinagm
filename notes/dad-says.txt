@@ -1,0 +1,47 @@
+Dad Notes                                        Last updated: Mike @ 2024-04-11
+--------------------------------------------------------------------------------
+
+2024-04-11 ---------------------------------------------------------------------
+
+Looks pretty good, Noah! But let's take it further...
+
+Responsiveness:
+
+    I just put up three screenshots in ./notes/screens
+        - 20240411.homepage.01.medium.1024x768.jpeg
+        - 20240411.homepage.02.phone.320x480.jpeg
+        - 20240411.homepage.03.maximum.1680x1050.jpg
+
+    The site has to look good at those three sizes. Pay special atention to
+    font-size when viewing on phones.
+
+    1024x768: 
+        - div.overlay is much too high. Try playing with (or eliminating)
+          min-height references.
+
+    320x480:
+        - Notice that "header.logo-bar nav" doesn't appear at this size.
+          In fact, doesn't appear at anything less than 800 pixels right now.
+          Check 800x600 vs 640x480.
+          The idea is to offer users a "hamburger menu icon" on smaller screens
+          that users can click to open a menu of options.
+
+    1680x1050:
+        - Get rid of "header.logo-bar > span > h1". It only appears at this
+          large size, and you probably didn't even realize it. It should just be
+          removed.
+
+In General:
+    The PEDIR CITA button, which is now a link, looks weird
+      1. it's underlined - remove that with text-decoration: none
+      2. it's blue or purple, the default colors for links. check styles
+         on "a" tags within header.contact.
+    When users click on header.logo-bar > div.logo, load /index.html
+        (or just "/"). Right now, if we go to the contact page, we have no way
+        to go "home" unless we use the browser's BACK button.
+        Your page should offer full mobility within your site. The BACK button
+        should also work, but that, in itself, isn't enough.
+
+
+
+    
