@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Tu Apego Seguro</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/name.css">
+    </head>
+    <body>
+        <header class="contact">
+            <div>
+                <span><i class="fa fa-phone"></i> +34 667-851-013</span>
+                <span><i class="fa fa-envelope"></i> tuapegoseguro@gmail.com</span>
+            </div>
+            <nav class="socials">
+                <button><i class="fa-brands fa-square-instagram"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+                <button><i class="fa-brands fa-tiktok"></i></button>
+            </nav>
+        </header>
+        <header class="logo-bar">
+            <div class="logo">
+                <img src="/img/logofondoblanco.png">
+                <div>TU APEGO SEGURO</div>
+            </div>
+            <span>
+                <h1>MARINA GÓMEZ MATHUR</h1>
+            </span>
+            <nav>
+                <button>QUIÉN SOY <i class="fa-solid fa-caret-down"></i></button>
+                <button>TARIFAS <i class="fa-solid fa-caret-down"></i></button>
+                <button>CONTACTO <i class="fa-solid fa-caret-down"></i></button>
+                <button class="special" type="checkbox"><a href="form.html">PEDIR CITA<i class="fa-solid fa-caret-down"></i></a></button>
+            </div>         
+        </header>
+
+        <div id="formulario">
+            <form action="/procesar_formulario" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required><br><br>
+            
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+              <option value="otro">Otro</option>
+            </select><br><br>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required><br><br>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+            
+            <input type="submit" value="Enviar">
+            </form> 
+        </div>           
+    </body>

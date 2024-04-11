@@ -46,7 +46,7 @@ header div.logo > div {
 section { margin: 0 1em; }
 
 div.overlay {
-    background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(/fotofondo.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(/img/fotofondo.jpg);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -55,8 +55,6 @@ div.overlay {
     height: 23em;
     padding: 2em 0;
 }
-
-#formulario {position: absolute; }
 
 div.title {
     text-align: center; margin-bottom: 1em;
@@ -89,4 +87,21 @@ section .testimonios p { font-size: 0.9em;}
     header nav button {
         display:none;
     }
+    p {
+        font-size: larger;
+    }
 }
+
+#formulario {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20em; /* Adjust width as needed */
+        border: 1px solid black;
+        background-color: #ADD8E6;
+        border-radius: 14px;
+        font-weight: 500;
+        font-family: poppins;
+        padding: 2em;
+        font-size: larger;
+    }
