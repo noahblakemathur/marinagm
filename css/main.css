@@ -164,5 +164,5 @@ background-position: center;height: 30em;margin: 0;}
 font-weight: bold;position: relative;top: 0.5em;}
 #formulario input {top: 1em;position: relative;}
 
-#tarifas {position: relative;height: 52.5em;width:119em;top: -1.5em;}
-#tarifas img {position: relative;height: 52.5em;width: 119em;}
+#tarifas {position: relative;height: 50em;width:85em;top: -1em;left: 20em;}
+#tarifas img {position: relative;height: 50em;width: 85em;}
