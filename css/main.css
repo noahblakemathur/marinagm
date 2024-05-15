@@ -79,12 +79,11 @@ padding-left: 0.4em;padding-right: 0.2em;padding-top: 0.2em;padding-bottom: 0.2e
 .testimonios-bar {position: relative;height: 6em;background-color:#87CEEB;}
 
 .testimonios-bar h2 {position: relative; text-align: center; top: 1em;}
-section .testimonios {position: relative; height: 15em; width:30em; border:1px solid black;border-radius: 2em; padding: 0.35em; 
-display: inline-block;top: 5.5em;background-color: #87CEEB; vertical-align: middle;left: 1.4em;}
+section .testimonios {position: relative; height: 15em; width:30em; border:1px solid black; padding: 0.35em; 
+display: inline-block;top: 5.5em;background-color:#E9E9E9; vertical-align: middle;left: 1.4em;}
 section .testimonios:not(#special) {margin-right: 11.5em;}
 section .testimonios p { font-size: 0.9em;}
-.testimonios-box {background-image: url('/img/fotofondo4.png');background-size: cover;
-background-position: center;height: 30em;margin: 0;}
+.testimonios-box {background-image: url('');background-size: cover;background-position: center;height: 30em;margin: 0;}
 @media (max-width:1889px){
     section .testimonios { 
         left: 6.5em;
@@ -120,6 +119,7 @@ background-position: center;height: 30em;margin: 0;}
     .overlay .body{
         left:2.5em;
         font-size: 1.3em;
+        max-width: 90%;
     }
 
     #scrollButton{
@@ -132,6 +132,20 @@ background-position: center;height: 30em;margin: 0;}
 
     header nav button {
         font-size: larger;
+    }
+
+    .contact div {
+        text-align: center;
+        left: 4em;
+        right: 4em;
+    }
+
+    .testimonios-box{
+        max-width: 90%;
+    }
+
+    .testimonios {
+        max-width: 90%;
     }
 }
 
