@@ -70,8 +70,8 @@ div.title h1 {
 }
 .tarifas-bar{position: relative;height: 6em;background-color:#87CEEB;}
 .tarifas-bar h2 {position: relative; text-align: center; top: 1em;}
-.tarifas-box{height: 30em;margin: 0;max-height: 90%;text-align: center;max-width: 95%;}
-.tarifas-box img{max-width: 95%;height: 30em;}
+.tarifas-box{margin: 0;max-height: 90%;text-align: center;max-width: 95%;}
+.tarifas-box img{max-width: 95%;}
 
 .testimonios-bar {position: relative;height: 6em;background-color:#87CEEB;}
 
