@@ -58,7 +58,7 @@ div.overlay {
     padding: 2em 0;
 }
 
-.overlay .body {position:relative;width: 45em;left:20em;top: 6em;font-size: 1.5em;font-weight: bold;}
+.overlay .body {position:relative;width: 45em;left:20em;top: 2em;font-size: 1.5em;font-weight: bold;}
 
 div.title {
     text-align: center; margin-bottom: 1em;height: 6em;top: 3em;position: relative;
@@ -103,24 +103,16 @@ section .testimonios p { font-size: 0.9em;}
         font-size: 1.5em;
     }
 
-    #scrollButton{
-        left: 4em;
-    }
-     
-    .contactame {
-        left: 25em;
+    section .testimonios {
+        left: 7em;
     }
 }
 
-@media (max-width:1150px){
+@media (max-width:1155px){
     .overlay .body{
         left:2.5em;
         font-size: 1.3em;
         max-width: 90%;
-    }
-
-    #scrollButton{
-        left:2.5em;
     }
 
     section .testimonios p {
@@ -146,7 +138,7 @@ section .testimonios p { font-size: 0.9em;}
     }
 }
 
-@media (max-width:778px){
+@media (max-width:785px){
     header nav button {
         display:none;
     }
@@ -154,8 +146,23 @@ section .testimonios p { font-size: 0.9em;}
         font-size: larger;
     }
 
-    .testimonios {
-        right: 1em;
+    section .testimonios {
+        left: 4.5em;
+    }
+    
+   .overlay .title h1 {
+       position: relative;
+       left: 0.8em;
+    }
+
+    .logo-bar .logo {
+        position: relative;
+        left: 3.3em;
+    }
+
+    .overlay section .body {
+        position: relative;
+        top: 3em;
     }
 }
 
