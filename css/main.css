@@ -22,11 +22,8 @@ header > nav, section > nav {
     text-transform: uppercase;
 }
 
-.hidden { display: none; }
-
-
 /* header includes logo and navigation buttons */
-header { padding: 0.8em 0; }
+header { padding-top: 0.8em; }
 
 /* header logo */
 header > div > img { height: 60px; }
@@ -43,21 +40,14 @@ header > div > span {
 }
 @media only screen and (orientation : portrait) {
     header > div { text-align: center; }
-    header > div > img {
-        height: 9em;
-    }
-    header > div > span {
-        font-size: 3.5em;
-    }
+    header > div > img { height: 9em; }
+    header > div > span { font-size: 3.5em; }
 }
-
 
 /* header navigation buttons */
 header nav { padding-top: 1.8em; }
 @media only screen and (orientation : portrait) {
-    header nav {
-        display: none;
-    }
+    header nav { display: none; }
 }
 header nav a {
     border: 0px;
@@ -84,10 +74,7 @@ main {
     background-size: cover;
     padding: 2em 0;
 }
-main div.title {
-/*    margin: 1em 0;*/
-    text-align: center;
-}
+main div.title { text-align: center; }
 main div.title h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5em;
@@ -98,43 +85,19 @@ main .body {
     text-align: justify;
     text-justify: auto;
 }
-
 @media only screen and (min-width: 1100px) {
-    main {
-        padding: 6em 0;
-    }
+    main { padding: 6em 0; }
     main div.title { margin-bottom: 4em; }
 }
 
-
-main, div.pricing { text-align: center; }
-main, div.about, div.pricing { margin-bottom: 2em; }
-
-
-header > div:first-child,
-header > nav,
-main > div,
-div.reviews > div,
-.contact > div,
-.contact nav,
-div.about
- {
-    margin-left: 2em;
-    margin-right: 3em;
-}
-
-div.pricing {
-    margin-bottom: 2em;
-}
+div.pricing { text-align: center; }
 div.pricing img {
     background-color: #fff;
-    border: 1px solid transparent;
     height: auto;
     max-width: 100%;
     padding-top: 0.4em;
 }
 
-div.reviews { margin: 0 0 30em 0; }
 div.reviews > div {
     background-color: #E6E6E6;
     border:1px solid #ccc;
@@ -146,16 +109,14 @@ div.reviews > div {
     text-justify: auto;
 }
 @media only screen and (orientation: portrait) {
-    div.reviews > div i {
-        margin-right: 2em;
-    }
+    div.reviews > div i { margin-right: 2em; }
 }
 
 /* contact bar */
 .contact {
     border-top: 1px solid #999;
     bottom: 0;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: normal;
     height: 3em;
     padding: 0 0 0.3em 0;
@@ -169,7 +130,7 @@ div.reviews > div {
 
 /* contact social media buttons */
 .contact nav {
-    bottom: 0.3em;
+    bottom: 0.4em;
     display: inline-block;
     position: absolute;
     right: 0;
@@ -196,5 +157,22 @@ div.reviews > div {
     .contact { font-size: 1em; }
 }
 
+/* Set vertical margins between sections */
+main,
+div.about,
+div.pricing { margin-bottom: 2em; }
+div.reviews { margin-bottom: 150px; }
 
+/* Set horizontal margins for sections containing content */
+header > div:first-child,
+header > nav,
+main > div,
+div.about,
+div.reviews > div,
+footer > div,
+footer > nav
+{
+    margin-left: 2em;
+    margin-right: 3em;
+}
 
