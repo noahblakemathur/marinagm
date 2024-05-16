@@ -98,6 +98,7 @@ main .body {
     text-align: justify;
     text-justify: auto;
 }
+
 @media only screen and (min-width: 1100px) {
     main {
         padding: 6em 0;
@@ -105,22 +106,26 @@ main .body {
     main div.title { margin-bottom: 4em; }
 }
 
+.about {padding: 1em;margin-bottom: 2em;}
 
 main, div.pricing {
-    margin-bottom: 2em;
     text-align: center;
+    top: 1em;
 }
 
 header > div:first-child,
 header > nav,
 main > div,
 div.reviews > div,
-.contact > div, .contact nav
+.contact > div, .contact nav,
+div.about
  {
     margin-left: 2em;
     margin-right: 3em;
 }
-
+div.pricing {
+    margin-bottom: 2em;
+}
 div.pricing img {
     background-color: #fff;
     border: 1px solid transparent;
