@@ -106,23 +106,23 @@ main .body {
     main div.title { margin-bottom: 4em; }
 }
 
-.about {padding: 1em;margin-bottom: 2em;}
 
-main, div.pricing {
-    text-align: center;
-    top: 1em;
-}
+main, div.pricing { text-align: center; }
+main, div.about, div.pricing { margin-bottom: 2em; }
+
 
 header > div:first-child,
 header > nav,
 main > div,
 div.reviews > div,
-.contact > div, .contact nav,
+.contact > div,
+.contact nav,
 div.about
  {
     margin-left: 2em;
     margin-right: 3em;
 }
+
 div.pricing {
     margin-bottom: 2em;
 }
@@ -141,7 +141,7 @@ div.reviews > div {
     border-radius: 6px;
     font-style: italic;
     margin-top: 0.8em;
-    padding: 1em 2em;
+    padding: 0em 1em;
     text-align: justify;
     text-justify: auto;
 }
